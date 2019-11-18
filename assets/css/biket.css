@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,700,800&display=swap');
+
+body,
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.navbar-nav li a:hover {
+	color: #17a2b8 !important;
+}
+
+.navbar-nav li a {
+	color: rgba(0, 0, 0, .75) !important;
+}
+
+
+a.btn {
+	border-radius: 0px;
+	font-weight: 600;
+	padding: .5em 1.5em;
+}
+
+nav.navbar a.navbar-brand {
+	margin-left: 3vw;
+}
+
+nav.navbar .brand-text {
+	margin-left: 5px;
+	font-size: .65em;
+	display: inline-block;
+	font-weight: 600;
+	color: #333;
+}
+
+nav.navbar .brand-black {
+	color: #333;
+	font-weight: 800;
+}
+
+nav.navbar ul.navbar-nav {
+	margin-right: 4vw;
+	font-weight: 600;
+}
+
+nav.navbar ul.navbar-nav li.nav-item {
+	margin-right: 15px;
+}
+
+header .carousel-item {
+	height: 70vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header .carousel-item h3,
+header .carousel-item p {
+	text-shadow: 0px 0px 20px #000;
+}
+
+.display-4 {
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+.post-preview {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.rigth-info {
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+	margin-top: 1.5rem !important;
+	margin-bottom: 1.5rem !important;
+}
+
+.rigth-info h3 {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: rgba(0, 0, 0, .7);
+}
+
+.rigth-info a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, .7);
+	font-size: .9em;
+	font-weight: 600;
+	display: block;
+	margin-top: .5rem;
+}
+
+.rigth-info a:hover {
+	color: rgba(0, 0, 0, 1) !important;
+}
+
+.post-preview .post-title,
+.show-info .post-title,
+.contac .c-title {
+	font-weight: 800;
+	font-size: 1.8em;
+	/* color: #212529; */
+}
+
+.card-regulasi .card-title {
+	font-weight: 700;
+	line-height: 1.35em;
+	font-size: 1.5em;
+}
+
+.post-preview .title {
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.post-preview .post-subtitle,
+.profil .subtitle {
+	font-weight: 400;
+	font-size: 1.6em;
+}
+
+.show-info .post-meta {
+	font-size: .85em;
+}
+
+.post-preview .post-meta,
+.show-info .post-meta {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.post-preview .post-meta a,
+.show-info .post-meta a {
+	font-weight: 600;
+	font-style: normal;
+	color: #212529;
+}
+
+.container-fluid.profil,
+.container-fluid.pegawai,
+.container.pegawai,
+.container.ffaq {
+	padding-top: 1.8em;
+	padding-bottom: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.container-fluid.profil {
+	background-color: #dfe0e1 !important;
+}
+
+.title {
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.container-fluid.profil .card-body {
+	padding: 3em 5em;
+}
+
+.container-fluid.profil .card-title {
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.container-fluid.profil .card-text {
+	font-size: 1.2em;
+}
+
+.container-fluid.profil .card-text strong {
+	font-weight: 700;
+}
+
+.container-fluid.profil .card-body .clearfix a {
+	font-size: .9em;
+}
+
+.container-fluid.profil .card-body .clearfix a.btn {
+	padding: .5em 3em;
+	font-size: 1em;
+	font-weight: 600;
+	border-radius: 0px;
+}
+
+#CardPegawai h4.card-title {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+#CardPegawai h4.card-text {
+	font-size: 1em;
+}
+
+footer.page-footer {
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 0 -0.125rem .25rem rgba(0, 0, 0, .075) !important;
+	background-color: #212529;
+	padding: 2em 5vw .5em 5vw;
+	font-weight: 300 !important;
+	color: #f2f2f2 !important;
+}
+
+footer.page-footer .footer-title {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+footer.page-footer .list-unstyled li a {
+	font-size: 1em;
+	color: #f2f2f2;
+	transition: ease .3s;
+}
+
+footer.page-footer .list-unstyled li a:hover {
+	text-decoration: none;
+	color: #17a2b8;
+}
+
+.footer-copyright {
+	font-size: .8em;
+	color: #f2f2f2;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@media (min-width: 768px) {
+	.container-fluid.profil .card-body {
+		padding: 3em 2em;
+	}
+
+	/* Card Slider*/
+	/* show 3 items */
+	.container.pegawai .carousel-inner .active,
+	.container.pegawai .carousel-inner .active+.carousel-item,
+	.container.pegawai .carousel-inner .active+.carousel-item+.carousel-item {
+		display: block;
+	}
+
+	.container.pegawai .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	.container.pegawai .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+	.container.pegawai .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+		transition: none;
+	}
+
+	.container.pegawai .carousel-inner .carousel-item-next,
+	.container.pegawai .carousel-inner .carousel-item-prev {
+		position: relative;
+		transform: translate3d(0, 0, 0);
+	}
+
+	.container.pegawai .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+		position: absolute;
+		top: 0;
+		right: -33.3333%;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+
+	/* left or forward direction */
+	.container.pegawai .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+	.container.pegawai .carousel-item-next.carousel-item-left+.carousel-item,
+	.container.pegawai .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+	.container.pegawai .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+		position: relative;
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+
+	/* farthest right hidden item must be abso position for animations */
+	.container.pegawai .carousel-inner .carousel-item-prev.carousel-item-right {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+
+	/* right or prev direction */
+	.container.pegawai .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+	.container.pegawai .carousel-item-prev.carousel-item-right+.carousel-item,
+	.container.pegawai .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+	.container.pegawai .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+		position: relative;
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+		display: block;
+		visibility: visible;
+	}
+
+	/* ------------------------------------------- */
+	footer.page-footer .content {
+		padding-right: 4em !important;
+	}
+
+}
+
+@media only screen and (max-device-width: 480px) {
+	.title {
+		font-size: 1.8em;
+	}
+
+	/* info terbaru */
+	.post-preview {
+		margin-right: 20px !important;
+		margin-left: 20px !important;
+	}
+
+	.post-preview .post-title {
+		font-weight: 700;
+		font-size: 1.7em;
+		/* color: #212529; */
+	}
+
+	.post-preview .post-subtitle {
+		font-size: 1.4em;
+	}
+
+	.container-fluid.profil .card-body {
+		padding: 3em 2em;
+	}
+}
+
+#faq-tab-content #tab1 #accordion-tab-1 .card {
+	border-radius: 0px;
+}
+
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 {
+	margin: 0px;
+}
+
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	font-weight: 700;
+	color: rgba(0, 0, 0, .87);
+	text-align: left;
+	white-space: normal;
+}
+
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button:hover,
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button:active,
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button:focus {
+	text-decoration: none !important;
+	color: #17a2b8 !important;
+}

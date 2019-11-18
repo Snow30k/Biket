@@ -1,0 +1,25 @@
+#faq-tab-content #tab1 #accordion-tab-1 .card {
+	border-radius: 0px;
+}
+
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 {
+	margin: 0px;
+}
+
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	font-weight: 700;
+	color: #858796;
+	text-align: left;
+	white-space: normal;
+}
+
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button:hover,
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button:active,
+#faq-tab-content #tab1 #accordion-tab-1 .card .card-header h5 button:focus {
+	text-decoration: none !important;
+	color: #17a2b8 !important;
+}

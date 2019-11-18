@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW SSL_REDIRECT:myproject30k.tech
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^myproject30k.tech$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE SSL_REDIRECT:myproject30k.tech
+RewriteCond %{HTTP_HOST} ^www.myproject30k.tech [NC]
+RewriteRule ^(.*)$ https://www.myproject30k.tech/$1 [L,R=301,NC]
